@@ -16,18 +16,22 @@
 
 #######################################################################################
 # Jekyll site settings
-title: YOUR BOOK NAME
-author: YOUR AUTHOR NAME
-email: YOUR EMAIL
+title: PFS_2020
+author: JEBV
+email: j.e.barrios@gmail.com
 description: >-
   This is an example book built with Jupyter Books.
 
 baseurl: /               # the subpath of your site, e.g. /blog. If there is no subpath for your site, use an empty string ""
-url: YOUR URL              # the base hostname & protocol for your site, e.g. http://example.com
+url: https://jebarriosvargas.github.io/PFS_2020/intro              # the base hostname & protocol for your site, e.g. http://example.com
 
 
 #######################################################################################
 # Jupyter Book settings
+
+# Main page settings
+footer_text: This page was created by <a href="https://github.com/jupyter/jupyter-book/graphs/contributors">The
+  Jupyter Book Community</a>
 
 # Sidebar settings
 show_sidebar: true                # Show the sidebar. Only set to false if your only wish to host a single page.
@@ -53,11 +57,11 @@ jupyterhub_url: ''                     # The URL for your JupyterHub. If no URL,
 jupyterhub_interact_text: Interact             # The text that interact buttons will contain.
 
 # Binder link settings
-use_binder_button: false                 # If 'true', add a binder button for interactive links
+use_binder_button: true                 # If 'true', add a binder button for interactive links
 binderhub_url: https://mybinder.org                        # The URL for your BinderHub. If no URL, use ""
 binder_repo_base: https://github.com/                     # The site on which the textbook repository is hosted
-binder_repo_org: YOUR-ORG                     # The username or organization that owns this repository
-binder_repo_name: YOUR-REPO                        # The name of the repository on the web
+binder_repo_org: "jebarriosvargas"                     # The username or organization that owns this repository
+binder_repo_name: "PFS_2020"                        # The name of the repository on the web
 binder_repo_branch: gh-pages                   # The branch on which your textbook is hosted.
 binderhub_interact_text: Interact              # The text that interact buttons will contain.
 
