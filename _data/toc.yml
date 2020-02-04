@@ -33,6 +33,7 @@
 
 # ===== NEW SECTION ========================================
 - divider: true
+- header: Python Esencial
 - title: Basic Notebook
   url: /PythonEsencial/0_Basic_Notebook
   not_numbered: true
@@ -43,13 +44,13 @@
   - title: Basic Funciones
     url: /PythonEsencial/5_Basic_Funciones
   - title: Basic Aritmética
-    url: /PythonEsencial/1_Basic_Aritmética
+    url: /PythonEsencial/1_Basic_Aritmetica
   - title: Basic Listas
     url: /PythonEsencial/3_Basic_Listas
   - title: Basic Ambientecientífico
-    url: /PythonEsencial/7_Basic_AmbienteCientífico
+    url: /PythonEsencial/7_Basic_AmbienteCientifico
   - title: Basic Bibliotecas(numpy)
-    url: /PythonEsencial/6_Basic_Bibliotecas(numpy)
+    url: /PythonEsencial/6_Basic_Bibliotecas_numpy
   - title: Basic Variables
     url: /PythonEsencial/2_Basic_Variables
 
