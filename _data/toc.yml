@@ -34,36 +34,36 @@
 # ===== NEW SECTION ========================================
 - divider: true
 - header: Python Esencial
-- title: Basic Notebook
+- title: jupyter-notebook
   url: /PythonEsencial/0_Basic_Notebook
-  not_numbered: true
   expand_sections: true
   sections:
-  - title: Basic Estructurasdecontrol
-    url: /PythonEsencial/4_Basic_EstructurasdeControl
-  - title: Basic Funciones
-    url: /PythonEsencial/5_Basic_Funciones
-  - title: Basic Aritmética
+  - title: Aritmética
     url: /PythonEsencial/1_Basic_Aritmetica
-  - title: Basic Listas
-    url: /PythonEsencial/3_Basic_Listas
-  - title: Basic Ambientecientífico
-    url: /PythonEsencial/7_Basic_AmbienteCientifico
-  - title: Basic Bibliotecas(numpy)
-    url: /PythonEsencial/6_Basic_Bibliotecas_numpy
-  - title: Basic Variables
+  - title: Variables
     url: /PythonEsencial/2_Basic_Variables
-
+  - title: Listas
+    url: /PythonEsencial/3_Basic_Listas
+  - title: Estructuras de control
+    url: /PythonEsencial/4_Basic_EstructurasdeControl
+  - title: Funciones
+    url: /PythonEsencial/5_Basic_Funciones
+  - title: Bibliotecas(numpy)
+    url: /PythonEsencial/6_Basic_Bibliotecas_numpy
+  - title: Ambiente científico
+    url: /PythonEsencial/7_Basic_AmbienteCientifico
 
 # ===== NEW SECTION ========================================
 - divider: true
 - title: Markdown
   url: /features/markdown
+  not_numbered: true
 - title: Notebooks
   url: /features/notebooks
-- title: Features
-  url: /features/features
+  not_numbered: true
 
 # ===== NEW SECTION ========================================
+- divider: true
 - title: License
   url: LICENSE
+  not_numbered: true
