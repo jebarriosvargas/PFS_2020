@@ -1,4 +1,4 @@
-# Books with Jupyter and Jekyll
+# Notas en Jupyter del curso de Propiedades Físicas de los Sólidos
 
 <img src="https://circleci.com/gh/jupyter/jupyter-book.svg?style=svg" class="left">
 
