@@ -1,0 +1,339 @@
+---
+redirect_from:
+  - "/estructuracristalina/espacioreal"
+interact_link: content/EstructuraCristalina/EspacioReal.ipynb
+kernel_name: python3
+kernel_path: content/EstructuraCristalina
+has_widgets: false
+title: |-
+  Estructura cristalina
+pagenum: 1
+prev_page:
+  url: /intro.html
+next_page:
+  url: /EstructuraCristalina/EspacioReciproco.html
+suffix: .ipynb
+search: de la red en n vec es una align images png el celda los un vectores puntos y bcc frac dos como punto redes cbica definicin se unitaria ms son conjunto dimensiones begin end tres las cualquier por primitivos r con donde que bravais nmero centrada infinito enteros pueden lattice equivalente del espacio wigner seitz conocida simple siguiente figura longitudes suma ejemplo escribir dimesiones da vector ambiente al base unidades primitiva contiene entres otras cbicas simples tetragonal ortorrmbica ejes ver diferentes u v w ortogonales tambin cuerpo centered cubic caras fcc centro forma rm otra coordinacin wzbcc penrosetiling estructuras cristalinas
+
+comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
+---
+
+    <main class="jupyter-page">
+    <div id="page-info"><div id="page-title">Estructura cristalina</div>
+</div>
+    <div class="jb_cell">
+
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pylab</span> <span class="kn">import</span> <span class="o">*</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Estructuras-cristalinas">Estructuras cristalinas<a class="anchor-link" href="#Estructuras-cristalinas"> </a></h1><p><em>Definición</em> Una <strong>red</strong> es una conjunto infinito de puntos definidos por la suma entera de un conjunto de vectores primitivos linealmente independientes.</p>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Por ejemplo en dos dimensiones, los puntos de una red se escriben como</p>
+<p>$
+\begin{align}
+\vec{R}_{[n_1,n_2]} = n_1 \vec{a}_1+n_2\vec{a}_2
+\end{align}
+$
+con $\vec{a}_1$ y $\vec{a}_2$ vectores de red primitivos y $n_1$ y $n_2$ enteros. En tres dimensiones los puntos de las red se pueden escribir como,</p>
+<p>$
+\begin{align}
+\vec{R}_{[n_1,n_2,n_3]} = n_1 \vec{a}_1+n_2\vec{a}_2 + n_3\vec{a}_3
+\end{align}
+$</p>
+<p>En dos y tres dimesiones la elección de vectores primitivos no es única.</p>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="images/lattice1.png" alt=""></p>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><em>Definición equivalente</em> Una <strong>red</strong> es un conjunto infinito de vectores donde la suma de cualesquiera dos vectores da un tercer vector del conjunto.</p>
+<p><em>Definición equivalente</em> Una <strong>red</strong> es un conjunto de puntos donde el ambiente de cualquier punto es equivalente al ambiente de cualquier otro punto.</p>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Cualquier estructura periódica puede expresarse como una red de repetición de motivos (base)</strong></p>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><em>Definición</em> Una <strong>celda unitaria</strong> es una región del espacio que cuando muchas unidades idénticas se empalman juntas llenan completamente el espacio.</p>
+<p>Usualmente trabajaremos con la celda unitaria más pequeña.</p>
+<p><em>Definición</em> Una <strong>celda unitaria primitiva</strong> de un cristal periódico es una celda que contiene exactamente un punto de la red.</p>
+<p><em>Definición</em> Dado un punto en la red, el conjunto de todos los puntos en el espacio los cuales son más cercannos a cualquier punto de la red constituyen la <strong>celda de Wigner-Seitz</strong> de una red.</p>
+<p>Si la red es irregular la misma construcción de la <strong>celda de Wigner-Seitz</strong> es conocida como la <strong>celda de Voronoi</strong>.</p>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="images/lattice2.png" alt=""></p>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><em>Definición</em> La descripción de objetos en la celda unitaria con respecto al punto de referencia de la red en la celda unitaria es conocida como la <strong>base</strong>.</p>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="images/lattice3.png" alt=""></p>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Ejemplo-red-de-panal">Ejemplo red de panal<a class="anchor-link" href="#Ejemplo-red-de-panal"> </a></h2>
+</div>
+</div>
+</div>
+</div>
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Definimos los vectores de la red</span>
+<span class="n">a</span>  <span class="o">=</span> <span class="mi">1</span>
+<span class="n">a1</span> <span class="o">=</span> <span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">])</span>
+<span class="n">a2</span> <span class="o">=</span> <span class="n">array</span><span class="p">([</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span><span class="mf">0.5</span><span class="p">])</span>
+<span class="c1"># Generamos los puntos de la red</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Redes-de-Bravais-en-dos-dimensiones">Redes de Bravais en dos dimensiones<a class="anchor-link" href="#Redes-de-Bravais-en-dos-dimensiones"> </a></h2>
+</div>
+</div>
+</div>
+</div>
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="images/2d-bravais.png" alt=""></p>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Redes-en-tres-dimensiones">Redes en tres dimensiones<a class="anchor-link" href="#Redes-en-tres-dimensiones"> </a></h2><p>La red más simple entres dimensiones es la cúbica simple, mostrada en la siguiente figura. A veces es conocida como cúbica <strong>P</strong> o red cúbica primitiva).
+<img src="images/SC.png" alt=""></p>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Otras redes un poco más complicadas que las redes cúbicas simples son la <strong>tetragonal</strong> y <strong>ortorrómbica</strong> donde los ejes permanecen perpendiculares, perod los vectores de red primitivos pueden diferir en sus longitudes (ver la siguiente figura). En la ortorrómbica los tres vectores de red primitivos tienen tres diferentes longitudes, mientras la celda unitaria tetragonal tiene dos longitudes iguales y una diferente.
+<img src="images/SC_T_O.png" alt=""></p>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Por conveción , para representar un vector sobre el número infinito de posibles vectores de red en una red se escribe
+$
+\begin{align}
+[uvw] = u\vec{a}_1+v\vec{a}_2+w\vec{a}_3
+\end{align}
+$
+donde $u$, $v$ y $w$ son enteros.</p>
+<p>Redes entres dimensiones con ejes que no son ortogonales también existen, las veremos más adelante. En especial daremos más detalles de dos ejemplos de redes ortogonales: cúbica centrada en el cuerpo (<em>body-centered cubic</em>, <strong>bcc</strong>) y cúbica centrada en las caras (<em>face-centered cubic</em>, <strong>fcc</strong>).</p>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Red-c&#250;bica-centrada-en-el-cuerpo-(bcc)">Red c&#250;bica centrada en el cuerpo (bcc)<a class="anchor-link" href="#Red-c&#250;bica-centrada-en-el-cuerpo-(bcc)"> </a></h3><p><img src="images/BCC.png" alt=""></p>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>La red bcc es la más simple red cúbica donde se agrega un punto a la red en el centro del cubo. Una forma alternativa de ver la celd unitaria es usando la llamada vista plana (<em>plan view</em>). La celda contiene dos puntos de red. Dichos puntos de la red se pueden escribir como,</p>
+<p>$
+\begin{align}
+\vec{R}_{\rm esquina}&amp; = [n_1,n_2,n_3] \\
+\vec{R}_{\rm centro} &amp;= [n_1,n_2,n_3]+[\frac{1}{2},\frac{1}{2},\frac{1}{2}]
+\end{align}
+$</p>
+<p>Aunque los puntos parezcan diferentes, ambos son equivalentes. Otra forma de pensar la red bcc es como dos redes cúbicas simples interpenetradas desplazadas una de otra por $[\frac{1}{2},\frac{1}{2},\frac{1}{2}]$.</p>
+<p>En terminos de nuestra defición de red, ¿por qué la <strong>bcc</strong> es una red? ¿cuáles son los vectores de red? Los vectores de red son:
+$
+\begin{align}
+\vec{a}_1 &amp;= [1,0,0] \\
+\vec{a}_2 &amp;= [0,1,0] \\
+\vec{a}_3 &amp;= [\frac{1}{2},\frac{1}{2},\frac{1}{2}]
+\end{align}
+$</p>
+<p>en unidades de la constante de red. Es fácil verificar que cualquier combinación,
+$
+\begin{align}
+\vec{R} = n_1 \vec{a}_1 +n_2 \vec{a}_2+n_3 \vec{a}_3
+\end{align}
+$
+con $n_1$, $n_2$ y $n_3$ enteros da los puntos de la red bcc..</p>
+<p>El <strong>número de coordinación</strong> de una red es el número de vecinos cercanos a cualquier punto de la red. En el caso de la bcc el número de coordinación $Z=8$.</p>
+<p>También, es posible determinar la celda Wigner-Seitz de la red bcc, la cual se muestra en la siguiente figura.</p>
+<p><img src="images/WZbcc.png" alt="">
+<img src="images/WZbcc2.png" alt=""></p>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Red-c&#250;bica-centrada-en-las-caras">Red c&#250;bica centrada en las caras<a class="anchor-link" href="#Red-c&#250;bica-centrada-en-las-caras"> </a></h3><p><img src="images/fcc.png" alt=""></p>
+<p><img src="images/WZfcc.png" alt=""></p>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Otras-redes-en-tres-dimesiones">Otras redes en tres dimesiones<a class="anchor-link" href="#Otras-redes-en-tres-dimesiones"> </a></h3><p>Las catorce rede de Bravais</p>
+<p><img src="images/Bravais3d.png" alt=""></p>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><a href="http://lampx.tugraz.at/~hadley/ss1/crystalstructure/structures/bravais/">http://lampx.tugraz.at/~hadley/ss1/crystalstructure/structures/bravais/</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Penrose_tiling#/media/File:Penrose_Tiling_(Rhombi).svg">https://en.wikipedia.org/wiki/Penrose_tiling#/media/File:Penrose_Tiling_(Rhombi).svg</a></p>
+
+</div>
+</div>
+</div>
+</div>
+
+ 
+
+
+    </main>
+    

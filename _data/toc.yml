@@ -33,6 +33,16 @@
 
 # ===== NEW SECTION ========================================
 - divider: true
+- header: Estructuras periódicas
+  expand_sections: true
+  sections:
+  - title: Estructura cristalina
+    url: /EstructuraCristalina/EspacioReal
+  - title: Red recíproca
+    url: /EstructuraCristalina/EspacioReciproco
+
+# ===== NEW SECTION ========================================
+- divider: true
 - header: Python Esencial
 - title: jupyter-notebook
   url: /PythonEsencial/0_Basic_Notebook
